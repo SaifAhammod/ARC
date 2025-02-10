@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>ARC</title>
+  <title>ARC Books</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -31,11 +31,11 @@
       cursor: pointer
     }
     div.galleryr {
-      border: 2px solid #06a62e;
+      border: 2px solid rgb(17, 150, 252);
     }
 
     div.galleryr:hover {
-      border: 1px solid #ff0000;
+      border: 1px solid #ee00ff;
       background-color:blanchedalmond;
     }
 
@@ -45,11 +45,11 @@
     }
 
     div.gallery {
-      border: 2px solid #06a62e;
+      border: 2px solid rgb(17, 150, 252);
     }
 
     div.gallery:hover {
-      border: 1px solid #ff0000;
+      border: 1px solid #ee00ff;
       background-color:azure;
     }
 
@@ -62,7 +62,11 @@
       padding: 15px;
       text-align: center;
     }
-
+    div.descsmall {
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
     * {
       box-sizing: border-box;
     }
@@ -91,6 +95,8 @@
       display: table;
       clear: both;
     }
+    /* ================================================================================================================ */
+    
   </style>
 </head>
 
@@ -98,18 +104,18 @@
 
   <!-- Sidebar/menu -->
   <!-- ======================================================================================================== -->
-  <nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding"
+  <nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding"
     style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
-      style="width:100%;font-size:22px">Close Menu</a>
+      style="width:100%;font-size:22px ">Close Menu</a>
     <div class="w3-container">
       <h3 class="w3-padding-64"><b>AI & Robotics Community<br>🇧🇩</b></h3>
     </div>
     <div class="w3-bar-block">
       <!-- <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>  -->
-      <a href="#aboutus" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">About us</a>
-      <a href="#resource" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Resource</a>
-      <a href="#admins" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Admins</a>
+      <a href="#programming" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-purple">Programming</a>
+      <a href="#robotics" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-purple">Robotics</a>
+      <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-orange">Home</a>
       <!-- <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Workshop</a> 
     <a href="#cource" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Cource</a> 
     <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Projects</a> -->
@@ -118,8 +124,8 @@
   </nav>
 
   <!-- Top menu on small screens -->
-  <header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
-    <a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
+  <header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
     <span>AI & Robotics Community Bangladesh</span>
   </header>
 
@@ -137,10 +143,10 @@
       <h1 class="w3-jumbo"><b>Books</b></h1>
 
     
-    <!-- Book Section -->
+    <!-- Programming Book Section -->
     <!-- ======================================================================================================== -->
-    <div class="w3-container" id="resource" style="margin-top:75px">
-      <h1 class="w3-xxxlarge w3-text-blue"><b>Programming.</b></h1>
+    <div class="w3-container" id="programming" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-blue"><b>Books on Programming Language.</b></h1>
       <hr style="width:50px;border:5px solid rgb(17, 150, 252)" class="w3-round">
       <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -151,15 +157,16 @@
       <div class="w3-row-padding ">
         <div class="responsive">
           <div class="galleryr">
-            <a target="_blank" href="https://www.facebook.com/SaifAhammod04/">
-              <img src="/assets/img/Resource/main/books.png" alt="Cinque Terre" width="600" height="400">
+            <a target="_blank" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://dpvipracollege.in/wp-content/uploads/2023/01/Introduction-to-Java-Programming-9th-Edition-Y-Daniel-Liangwww.ebook-dl.com_.pdf&ved=2ahUKEwjR1fCo6LmLAxVR2jgGHRqzI9cQFnoECBQQAQ&usg=AOvVaw1S7sAK_tEc72dgwgNEF7UT">
+              <img src="/assets/img/books/programming/java.jpeg" alt="Cinque Terre" width="600" height="400">
             </a>
-            <div class="desc"><b>JAVA</b></div>
+            <div class="desc"><b>Introduction to Java Programming</b> <br>by<br> <b>Y. Daniel Liang</b>  </div>
+            
           </div>
         </div>
 
 
-        <div class="responsive">
+        <!-- <div class="responsive">
           <div class="galleryr">
             <a target="_blank" href="https://www.facebook.com/profile.php?id=100005788028985">
               <img src="/assets/img/Resource/main/software.png" alt="Cinque Terre" width="600" height="400">
@@ -184,13 +191,70 @@
             </a>
             <div class="desc"><b>C</b></div>
           </div>
-        </div>
+        </div> -->
 
         
 
       </div>
     </div>
-    <!-- Book Section end -->
+    <!-- Programming Book Section end -->
+      <!-- ======================================================================================================== -->
+           <!-- Robotics Book Section -->
+    <!-- ======================================================================================================== -->
+    <div class="w3-container" id="robotics" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-blue"><b>Books on Robotics.</b></h1>
+      <hr style="width:50px;border:5px solid rgb(17, 150, 252)" class="w3-round">
+      <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure</p>
+    </div>
+    <!-- Resources -->
+    <div class="w3-row-padding">
+      <div class="w3-row-padding ">
+        <div class="responsive">
+          <div class="galleryr">
+            <a target="_blank" href="https://github.com/StanfordASL/Principles-of-Robot-Autonomy">
+              <img src="/assets/img/books/robotics/Principles of Robot Autonomy.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc"><b>Principles of Robot Autonomy </b> <br>by <br> <b>Joe Lorenzetti</b>  </div>
+
+
+          </div>
+        </div>
+
+
+        <!-- <div class="responsive">
+          <div class="galleryr">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100005788028985">
+              <img src="/assets/img/Resource/main/software.png" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc"><b>Principles of Robot Autonomy </b> <br>by <br> <b>Joe Lorenzetti</b>  </div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="galleryr">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100005788028985">
+              <img src="/assets/img/Resource/main/software.png" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc"><b>Principles of Robot Autonomy </b> <br>by <br> <b>Joe Lorenzetti</b>  </div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="galleryr">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100005788028985">
+              <img src="/assets/img/Resource/main/software.png" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc"><b>Principles of Robot Autonomy </b> <br>by <br> <b>Joe Lorenzetti</b>  </div>
+          </div>
+        </div> -->
+
+        
+
+      </div>
+    </div>
+    <!-- Robotics Book Section end -->
       <!-- ======================================================================================================== -->
  
       <!-- End page content -->
